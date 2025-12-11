@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://backend-api-players.onrender.com', // Certifique-se que a porta é a mesma do seu back-end
+  baseURL: 'http://localhost:3000', // back-end
 });
 
 // Adiciona um interceptor para incluir o token de autenticação em todas as requisições
